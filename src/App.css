@@ -1,0 +1,63 @@
+.App{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.keyboard-grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 0.3rem 0.3rem
+}
+
+.second, .first{
+ margin: auto;
+  
+}
+
+.key{
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.word-grid{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.line{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+ 
+}
+
+.tile{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.correct{
+  background-color: green;
+}
+
+.close{
+  background-color: yellow;
+}
+
+.incorrect{
+  background-color: gray;
+}
