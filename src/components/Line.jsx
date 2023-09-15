@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Line = ({guess, isFinal, correctWord}) => {
-    console.log("guess", guess)
     const WORD_LENGTH = 5
     const tiles=[]
     for(let i=0; i<WORD_LENGTH; i++){

@@ -50,6 +50,12 @@
   text-transform: uppercase;
 }
 
+.correct,
+.close,
+.incorrect {
+  transition: background-color 1.3s ease-in-out; 
+}
+
 .correct{
   background-color: green;
 }
