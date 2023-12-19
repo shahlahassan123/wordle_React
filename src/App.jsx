@@ -24,7 +24,6 @@ const App = () => {
   //Handle the keydown as well as mouse click function
   const handleKeyBoard = (e, keyValue="") =>{
     if(typeof keyValue ==='object'){
-      console.log("leass")
       keyValue= 'BACKSPACE'
     }
     console.log("keyValue", keyValue)
@@ -76,9 +75,9 @@ const App = () => {
 
   },[])
 
-  console.log("correct", correctWord)
+  // console.log("correct", correctWord)
 
-  console.log("current", currentGuess)
+  // console.log("current", currentGuess)
 
 
 
