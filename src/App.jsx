@@ -75,7 +75,7 @@ const App = () => {
 
   },[])
 
-  // console.log("correct", correctWord)
+  console.log("correct", correctWord)
 
   // console.log("current", currentGuess)
 
